@@ -1,5 +1,8 @@
 use_frameworks!
 
+source 'https://github.com/Kanger/FFSpecs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
 target 'FFAPIsKit_Example' do
   pod 'FFAPIsKit', :path => '../'
 
